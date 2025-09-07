@@ -17,8 +17,8 @@ verb 3
 auth-user-pass
 remote-cert-tls server
 
-# Jangan nurut semua route dari server
-route-nopull
+# redirect-gateway def1 <= klo lo mau smua trafik internet lewat vpn ini bisa aktifkan
+route-nopull <= ini splite tunnel, akses server internet pake isp sendiri, dan akses server kantor pake vpn
 
 # add subnet kantor biar bisa ngobrol sama jaringan local
 route 192.168.0.0 255.255.255.0
