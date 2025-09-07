@@ -4,7 +4,7 @@ export via mikrotik
 ```
 client
 dev tun
-remote 103.245.16.18 1194 tcp
+remote 103.x.x.x 1194 tcp <= ip public sever ovpn
 tls-client
 nobind
 user nobody
